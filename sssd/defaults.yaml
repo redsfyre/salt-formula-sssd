@@ -23,3 +23,5 @@ sssd:
         offline_failed_login_delay: 5
   authconfig:
     updateall_args: '--enablesssd --enablesssdauth --update'
+  authselect:
+    updateall_args: 'select sssd with-mkhomedir'
